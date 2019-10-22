@@ -10,6 +10,9 @@ windows-venv/
 __pycache__/
 *.pyc
 
+# Visual Studio Code
+.vscode/
+
 # SQLite
 *.sqlite3
 

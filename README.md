@@ -1,38 +1,34 @@
+
 <p align="center">
   <a href="https://www.aichner-christian.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.aichner-christian.com/img/logo/logo_web.png" alt="Agency Logo" height="150">
+    <img src="https://www.aichner-christian.com/img/logo/apilink.png" alt="Api Link Logo" height="150">
   </a>
 </p>
 
-<h3 align="center">Official Django Template</h3>
+<h3 align="center">API Link - Connect your sources</h3>
 
 <p align="center">
-  This is the official template repository for Django projects of the Advertisement Agency Christian Aichner.
+  API Link is a service built to make APIs more accessible and usable by taking away all your pain of setting up multiple APIs connectors. We handle all your required APIs and deliver one single beautiful stream of data.
   <br>
-  <br>
-  <a href="https://github.com/aichner/Django-Template/issues/new?template=bug_report.md">Report bug</a>
+  <br>  
+  <a href="https://github.com/api-link/Back/issues/new?template=bug_report.md">Report bug</a>
   ·
-  <a href="https://github.com/aichner/Django-Template/issues/new?template=feature_request.md">Request feature</a>
-  ·
-  <a href="https://www.aichner-christian.com/damn/dev">Blog</a>
+  <a href="https://github.com/api-link/Back/issues/new?template=feature_request.md">Request feature</a>  ·
+  <a href="https://github.com/api-link/Back/issues/new?template=change_request.md">Request change</a>
 </p>
 
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Status](#status)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
-- [Community](#community)
 - [Versioning](#versioning)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
 ## [](#quick-start)Quick start
-
-Several quick start options are available:
-
+Choose setup for:
 - [Docker](#setup-with-docker)
 - [Python Virtual Environment](#setup-with-python-virtual-environment)
 
@@ -48,8 +44,8 @@ Several quick start options are available:
 Run the following commands:
 
 ```bash
-git clone https://github.com/aichner/Django-Template.git
-cd Django-Template
+git clone https://github.com/api-link/Back.git api-link-django
+cd api-link-django
 docker-compose up --build -d
 docker-compose up
 ```
@@ -68,7 +64,7 @@ docker-compose logs -f
 
 ## [](#setup-with-python-virtual-environment)Setup with Python Virtual Environment
 
-You can start a Django project from this template without setting up Docker and simply use a virtual environment,
+You can run this Django application without setting up Docker and simply use a virtual environment,
 which is the [recommended installation approach](https://docs.python.org/3/library/venv.html) for all Python projects itself.
 
 #### Dependencies
@@ -79,8 +75,8 @@ which is the [recommended installation approach](https://docs.python.org/3/libra
 
 With [PIP](https://github.com/pypa/pip) installed, run:
 
-    git clone https://github.com/aichner/Django-Template.git
-    cd Django-Template
+    git clone https://github.com/api-link/Back.git api-link-django
+    cd api-link-django
     python --version
     python -m pip --version
 
@@ -110,36 +106,21 @@ To set up your database and load initial data, run the following commands:
     ./manage.py migrate
     ./manage.py runserver
 
-## [](#status)Status
-
-![Website](https://img.shields.io/website/https/www.aichner-christian.com?label=website)
-
 ## [](#bug-and-feature-requests)Bugs and feature requests
 
 Have a bug or a feature request? Please first search for existing and closed issues. If your problem or idea is not
-addressed yet, [please open a new issue](https://github.com/aichner/Django-Template/issues/new/choose).
+addressed yet, [please open a new issue](https://github.com/api-link/Back/issues/new/choose).
 
 ## [](#contributing)Contributing
 
-![GitHub last commit](https://img.shields.io/github/last-commit/aichner/Django-Template)
-![GitHub issues](https://img.shields.io/github/issues-raw/aichner/Django-Template)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/aichner/Django-Template?color=green)
+![GitHub last commit](https://img.shields.io/github/last-commit/api-link/Back)
+![GitHub issues](https://img.shields.io/github/issues-raw/api-link/Back)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/api-link/Back?color=green)
 
-Please read through our
-[contributing guidelines](https://github.com/aichner/Django-Template/blob/master/CONTRIBUTING.md). Included are
-directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/api-link/Back/blob/master/CONTRIBUTING.md).
+Included are directions for opening issues, coding standards, and notes on development.
 
-All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by
-[Mark Otto](https://github.com/mdo).
-
-## [](#community)Community
-
-Get updates on our development and chat/talk with the project maintainers and community members.
-
-[![Discord][discord-badge]][discord]
-
-- Follow [@realaichner](https://twitter.com/realaichner).
-- Follow us on [Facebook](https://www.facebook.com/werbeagentur.aichner).
+All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
 ## [](#versioning)Versioning
 
@@ -148,6 +129,11 @@ maintained under [the Semantic Versioning guidelines](https://semver.org/). Some
 those rules whenever possible.
 
 ## [](#creators)Creators
+
+**Simon Prast**
+
+- <https://github.com/dermrsimon>
+- <https://www.linkedin.com/in/simonprast/>
 
 **Christian Aichner**
 
@@ -170,6 +156,3 @@ to [contribute to our project](#contributing).
 
 SPDX-License-Identifier: (EUPL-1.2)
 Copyright © 2019 Werbeagentur Christian Aichner
-
-[discord-badge]: https://img.shields.io/badge/Discord-Join%20chat%20%E2%86%92-738bd7.svg
-[discord]: https://discord.gg/dnxUJmk
